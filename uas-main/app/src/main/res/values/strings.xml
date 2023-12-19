@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string name="Kpop_name">animal</string>
+    <string name="img">img</string>
+    <string name="Kpop_desc">description</string>
+    <string name="grid">grid</string>
+    <string name="list">list</string>
+    <string name="Kpop_description">description</string>
+    <string-array name="data_name">
+        <item>BANGTAN SEONYONDAN</item>
+        <item>EXO</item>
+        <item>BIG BANG</item>
+        <item>BTOB</item>
+        <item>DAY6</item>
+        <item>ASTRO</item>
+        <item>MONSTA X</item>
+        <item>SF9</item>
+        <item>SNSD</item>
+        <item>SEVENTEEN</item>
+        <item>TWICE</item>
+        <item>SUPER JUNIOR</item>
+        <item>SECRET NUMBER</item>
+        <item>NCT DREAM</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>BTS dikenal dengan nama lain di Korea Selatan, yakni Bangtan Sonyeondan atau Bulletproof Boy Scouts. Pada tahun 2017, arti BTS ditambahkan menjadi singkatan dari Beyond the Scene.
+            "Bangtan" sendiri berarti "anti peluru" dan "Sonyeondan" berarti "Sekelompok Anak Laki-laki".</item>
+        <item>Exo adalah sebuah grup vokal pria Korea Selatan-Tiongkok yang berbasis di Seoul. Grup ini beranggotakan sembilan orang: Suho, Baekhyun, Chanyeol, D.O., Kai, Sehun, Xiumin, Lay, dan Chen.
+            Grup ini dibentuk oleh SM Entertainment pada tahun 2011 dan debut pada tahun 2012.</item>
+        <item>Big Bang (Hangul: 빅뱅) adalah boy band asal Korea Selatan yang dibentuk oleh YG Entertainment. Grup ini debut secara resmi pada 19 Agustus 2006 dengan lima anggota, yakni G-Dragon, T.O.P, Taeyang, Daesung dan Seungri.
+            Didominasi dengan aliran hip hop, debut mereka pun cukup sukses dengan album pertama Bigbang Vol.1 yang terjual sebanyak 48.000 kopi.</item>
+        <item>BTOB adalah salah satu boyband asal Korea Selatan di bawah naungan agensi Cube Entertainment, tepatnya label Cube DC.
+            Berisi 7 member, BTOB merupakan akronim dari Born to Beat. Dibentuk oleh Cube Ent, BTOB memulai debut pada 22 Maret 2012 dalam program M!</item>
+        <item>DAY6 merupakan grup band besutan JYP Entertaiment yang sudah berkiprah di industri hiburan KPop sejak tahun 2015.
+            Meskipun berbentuk grup band, lagu-lagu DAY6 tetap laris di pasaran. Bahkan, tiket konser mereka ludes terjual hanya dalam beberapa menit saja.</item>
+        <item>Astro (Hangul: 아스트로) (juga ditulis sebagai ASTRO) adalah boy band Korea Selatan yang dibentuk oleh Fantagio. Grup ini terdiri dari 4 anggota: MJ, JinJin, Eunwoo, dan Yoon Sanha.
+            Awalnya beranggotakan 6 orang, Rocky meninggalkan grup pada 28 Februari 2023. Pada 19 April 2023, Moon Bin dinyatakan meninggal di rumahnya</item>
+        <item>Monsta X (Hangul: 몬스타엑스; RR: monseuta-egseu; juga ditulis sebagai MONSTA X) adalah boy band Korea Selatan yang dibentuk oleh Starship Entertainment melalui program survival NO.MERCY di Mnet pada tahun 2015.
+            Grup ini pada awalnya memiliki tujuh anggota: Shownu, Wonho, Minhyuk, Kihyun, Hyungwon, Jooheon dan I.M. Wonho keluar pada bulan Oktober 2019.</item>
+        <item>SF9 (Hangul: 에스에프나인; singkatan dari Sensational Feeling 9) adalah grup vokal pria asal Korea Selatan pertama dari FNC Entertainment yang dibentuk melalui acara survival Mnet d.o.b (Dance or Band).
+            SF9 debut pada 5 Oktober 2016 dengan merilis album single Feeling Sensation dengan lagu utama "Fanfare", serta serial webdrama interaktif Click Your Heart</item>
+        <item>Girls’ Generation (소녀시대; SNSD atau SoShi) adalah girl grup asal Korea Selatan bentukan SM Entertainment.
+            Sekarang SNSD memiliki 5 anggota yaitu Taeyeon, Sunny, Hyoyeon, Yuri dan Yoona.</item>
+        <item>Seventeen adalah sebuah boy band asal Korea Selatan yang dibentuk oleh Pledis Entertainment pada tahun 2015.
+            Grup yang terdiri dari 13 anggota ini dibagi berdasarkan spesialisasi keahlian masing-masing ke dalam 3 sub-unit; hip-hop unit, vocal unit, dan performance unit.</item>
+        <item>Twice (Hangul: 트와이스; Jepang: トゥワイス), adalah sebuah grup idola wanita asal Korea Selatan yang dibentuk oleh JYP Entertainment.
+            Grup ini terdiri dari sembilan anggota: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung, dan Tzuyu. Twice dibentuk melalui sebuah program televisi berjudul Sixteen, dan melakukan debut mereka pada tanggal 20 Oktober 2015 dengan album mini bertajuk The Story Begins.</item>
+        <item>Super Junior (bahasa Korea: 슈퍼주니어; Syupeo Junieo), juga dikenal sebagai SJ atau SUJU adalah boy band asal Korea Selatan yang dibentuk pada tahun 2005 oleh produser Lee Soo-man dari perusahaan rekaman S.M. Entertainment.
+            Super Junior juga dijuluki oleh media dan Penghargaan Musik Korea sebagai "King of Hallyu Wave" karena kontribusi penting mereka terhadap Korean Wave</item>
+        <item>SECRET NUMBER (Hangul: 시크릿넘버, Jepang: シークレットナンバー) merupakan sebuah group idola perempuan multinasional asal Korea Selatan yang berada dibawah naungan agensi Vine Entertainment.
+            Grup ini terdiri dari 6 anggota yaitu : Léa, Dita, Jinny, Soodam, Minji dan Zuu. Secret Number melakukan debut perdananya pada tanggal 19 Mei 2020 dengan album singel berjudul Who Dis?</item>
+        <item>NCT Dream merupakan sub-unit dari grup pria atau boyband NCT besutan SM Entertainment. Grup ini beranggotakan tujuh remaja belasan. Mereka adalah Mark, Renjun, Jeno, Haechan, Jaemin, Chenle, dan Jisung. 2.
+            Siapa member NCT Dream yang dari China? Member NCT Dream yang dari China adalah Renjun dan Chenle.</item>
+    </string-array>
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/bts</item>
+        <item>@drawable/exo</item>
+        <item>@drawable/bigbang</item>
+        <item>@drawable/btob</item>
+        <item>@drawable/day6</item>
+        <item>@drawable/astro</item>
+        <item>@drawable/monstax</item>
+        <item>@drawable/sf9</item>
+        <item>@drawable/snsd</item>
+        <item>@drawable/seventeen</item>
+        <item>@drawable/twice</item>
+        <item>@drawable/superjunior</item>
+        <item>@drawable/secretnumber</item>
+        <item>@drawable/nctdream</item>
+    </integer-array>
+
+    <string-array name="data_sound">
+        <item>bts</item>
+        <item>exo</item>
+        <item>bigbang</item>
+        <item>btob</item>
+        <item>day6</item>
+        <item>astro</item>
+        <item>monstax</item>
+        <item>sf9</item>
+        <item>snsd</item>
+        <item>seventeen</item>
+        <item>twice</item>
+        <item>superjunior</item>
+        <item>secretnumber</item>
+        <item>nctdream</item>
+    </string-array>
+
+</resources>

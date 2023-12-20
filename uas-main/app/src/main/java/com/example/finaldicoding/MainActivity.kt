@@ -1,4 +1,4 @@
-package com.example.finaldicoding
+package com.example.AplikasiList
 
 import ListGambar
 import android.content.Intent
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.finaldicoding.databinding.ActivityMainBinding
+import com.example.AplikasiList.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

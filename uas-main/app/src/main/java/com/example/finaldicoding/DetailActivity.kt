@@ -1,4 +1,4 @@
-package com.example.finaldicoding
+package com.example.AplikasiList
 
 import android.os.Bundle
 import android.view.MenuItem

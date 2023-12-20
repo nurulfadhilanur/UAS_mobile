@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.finaldicoding"
+    namespace = "com.example.AplikasiList"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.finaldicoding"
+        applicationId = "com.example.AplikasiList"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

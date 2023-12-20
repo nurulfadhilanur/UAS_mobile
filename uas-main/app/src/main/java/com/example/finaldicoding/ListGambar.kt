@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.finaldicoding.R
+import com.example.AplikasiList.R
 import android.view.animation.AnimationUtils;
-import com.example.finaldicoding.Kpop
+import com.example.AplikasiList.Kpop
 
 
 class ListGambar(private val context: Context, private val listGambar:ArrayList<Kpop>) : RecyclerView.Adapter<ListGambar.ListViewHolder>() {

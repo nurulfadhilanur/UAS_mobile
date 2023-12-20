@@ -1,6 +1,6 @@
 package com.example.finaldicoding
 
-import ListHeroAdapter
+import ListGambar
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -70,10 +70,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         binding.listview.layoutManager = LinearLayoutManager(this)
-        val listHeroAdapter = ListHeroAdapter(this, list)
-        binding.listview.adapter = listHeroAdapter
+        val listGambar = ListGambar(this, list)
+        binding.listview.adapter = listGambar
 
-        listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
+        listGambar.setOnItemClickCallback(object : ListGambar.OnItemClickCallback {
             override fun onItemClicked(data: Kpop) {
                 val detailIntent = Intent(this@MainActivity, DetailActivity::class.java)
                 detailIntent.putExtra(DetailActivity.EXTRA_DETAIL, data)

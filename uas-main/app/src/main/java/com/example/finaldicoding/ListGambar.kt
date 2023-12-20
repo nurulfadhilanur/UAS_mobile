@@ -11,7 +11,7 @@ import android.view.animation.AnimationUtils;
 import com.example.finaldicoding.Kpop
 
 
-class ListHeroAdapter(private val context: Context, private val listHero: ArrayList<Kpop>) : RecyclerView.Adapter<ListHeroAdapter.ListViewHolder>() {
+class ListGambar(private val context: Context, private val listGambar:ArrayList<Kpop>) : RecyclerView.Adapter<ListGambar.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
     private var mediaPlayer: MediaPlayer? = null
 
@@ -31,26 +31,26 @@ class ListHeroAdapter(private val context: Context, private val listHero: ArrayL
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_hero, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.item_gambar, parent, false)
         view.setAnimation(AnimationUtils.loadAnimation(parent.getContext(), R.anim.slide_right));
         return ListViewHolder(view)
     }
 
-    override fun getItemCount(): Int = listHero.size
+    override fun getItemCount(): Int = listGambar.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photos) = listHero[position]
+        val (name, description, photos) = listGambar[position]
         holder.imgPhoto.setImageResource(photos)
         holder.tvName.text = name
 
         holder.itemView.setOnClickListener {
             mediaPlayer?.start()
-            onItemClickCallback.onItemClicked(listHero[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listGambar[holder.adapterPosition])
         }
 
 
         holder.itemView.setOnClickListener {
-            val audioName = listHero[holder.adapterPosition]
+            val audioName = listGambar[holder.adapterPosition]
             val audioResourceId = holder.itemView.context.resources.getIdentifier(audioName.sound, "raw", holder.itemView.context.packageName)
 
             mediaPlayer?.apply {
@@ -63,7 +63,7 @@ class ListHeroAdapter(private val context: Context, private val listHero: ArrayL
                 start()
             }
 
-            onItemClickCallback.onItemClicked(listHero[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listGambar[holder.adapterPosition])
         }
     }
 
